@@ -1,0 +1,12 @@
+
+.header
+{
+grid-area: h;
+background-color: green;
+
+}
+
+.header img
+{size:50px;
+
+width: 20px;}

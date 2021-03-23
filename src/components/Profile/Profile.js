@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
-
-
+import classes   from './Profile.module.css'
+import MyPosts from './MyPosts/MyPosts.js'
 const  Profile = ()=> 
 {
     return    <div className="content">
@@ -13,26 +13,10 @@ const  Profile = ()=>
     <img src="http://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1Rk3xj3SNsykl6tc1aFKIVZ6aaKTM5SRkZCeTgDn6uOyic"/>
    </div>
 
-   <div>
-     MyPOst
-    </div>
-   <div>
-    NewPOst
-    </div>
-   <div>
-     post1
-    </div>
-   <div>
-     post2
-  </div>
-   
-
-  </div>
-
-    
-
+   <MyPosts/>
+   </div>
 
 }
 
 
-export  default Profile
+export  default Profile;

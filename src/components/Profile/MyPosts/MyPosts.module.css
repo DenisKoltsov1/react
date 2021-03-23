@@ -1,0 +1,18 @@
+.content
+{
+
+grid-area: c;
+background-color: cornflowerblue;
+}
+
+.item
+{
+    color :gold;
+}
+
+
+.item  img  
+{
+width: 50px;
+
+}
