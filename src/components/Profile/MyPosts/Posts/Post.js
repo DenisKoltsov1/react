@@ -1,7 +1,7 @@
 import React ,{Component} from 'react';
 import classes   from './Post.module.css'
 
-const  Post = ()=> {
+const  Post = (props)=> {
 
     
     return <div>
@@ -9,9 +9,9 @@ const  Post = ()=> {
   
      <div  className={classes.item}>
     <img  src="https://pixelbox.ru/wp-content/uploads/2020/12/avatar-youtube-99.jpg"/>
-     MyPost
+    {props.message}
      <div>
-     <span>like</span>
+     <span>like</span> {props.likesCount}
      </div>
     
     </div>

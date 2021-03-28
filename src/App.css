@@ -13,7 +13,15 @@ width: 1200px;
 margin: 0 auto;
 }
 
+.app-wraper-content{
 
+
+grid-area: c;
+background-color: cornflowerblue;
+
+
+
+}
 
 
 

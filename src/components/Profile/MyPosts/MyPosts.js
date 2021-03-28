@@ -13,10 +13,10 @@ const  MyPosts = ()=> {
   
   </div>
   
-    <Post />
-    <Post />
-    <Post />
-    <Post />
+    <Post message="hi,my name Denis"    likesCount="0"/>
+    <Post  message="hi,my name Vasy" likesCount="23" />
+    <Post message="эй нигер"   likesCount="15000"/>
+    <Post  message="аахзхахз  орешь :)))"  likesCount="0"/>
    
 
   </div>
